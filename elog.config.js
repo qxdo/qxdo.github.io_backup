@@ -108,9 +108,9 @@ module.exports = {
       token: process.env.GITHUB_TOKEN,
       user: process.env.ELOG_GITHUB_USER,
       repo: process.env.ELOG_GITHUB_REPO,
-      prefixKey: '',
-      branch: 'main',
-      host: 'cdn.jsdelivr.net'
+      branch: process.env.ELOG_GITHUB_BRANCH,
+      host: process.env.ELOG_GITHUB_HOST,
+      prefixKey: ''
     }
   }
 }

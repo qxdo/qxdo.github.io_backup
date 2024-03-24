@@ -1,9 +1,5 @@
----
-title: 博客工具
-abbrlink: fc4ece1a
----
-# 博客工具
 
+# 博客工具
 
 - 写作平台：Notion
 - 博客平台：[Hexo](https://hexo.io/)
