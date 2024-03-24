@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 
 # 博客工具
 
@@ -87,10 +90,10 @@ npm run server
 注册 Vercel 账号并绑定 Github，在 Vercel 导入 该项目，Vercel 会自动识别出该 Hexo 项目，不需要改动，直接选择 Deploy 部署。部署完成会有一个 Vercel 临时域名，你也可以绑定自己的域名。
 
 
-![Untitled.png](https://cdn.jsdelivr.net/gh/qxdo/qxdo_image_bed/a4c7d4b4b4872e6cda52442b260d5339.png)
+![Untitled.png](/images/a4c7d4b4b4872e6cda52442b260d5339.png)
 
 
-![Untitled.png](https://cdn.jsdelivr.net/gh/qxdo/qxdo_image_bed/317468d0f2533d8008cd0e0798501cce.png)
+![Untitled.png](/images/317468d0f2533d8008cd0e0798501cce.png)
 
 
 ## 10. 配置 Github Actions 权限
@@ -99,7 +102,7 @@ npm run server
 在 Github 仓库的设置中找到 `Actions-General`，打开流水线写入权限`Workflow permissions`
 
 
-	![Untitled.png](https://cdn.jsdelivr.net/gh/qxdo/qxdo_image_bed/385c2589f0d9d1976eea3b6f14a44bfd.png)
+	![Untitled.png](/images/385c2589f0d9d1976eea3b6f14a44bfd.png)
 
 
 ## 11. 配置环境变量
@@ -111,7 +114,7 @@ npm run server
 在 Github 仓库的设置中找到 `Secrets  and variables`，新增仓库的环境变量`NOTION_DATABASE_ID`和`NOTION_TOKEN`和`.elog.env`保持一致即可
 
 
-![Untitled.png](https://cdn.jsdelivr.net/gh/qxdo/qxdo_image_bed/578ab28ece17d39591a969eb3897df0a.png)
+![Untitled.png](/images/578ab28ece17d39591a969eb3897df0a.png)
 
 
 ## 12. 自动化部署
