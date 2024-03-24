@@ -106,10 +106,10 @@ module.exports = {
     },
     github: {
       token: process.env.ELOG_GITHUB_TOKEN,
-      user: process.env.ELOG_GITHUB_USER,
-      repo: process.env.ELOG_GITHUB_REPO,
-      branch: process.env.ELOG_GITHUB_BRANCH,
-      host: process.env.ELOG_GITHUB_HOST,
+      user: 'qxdo',
+      repo: 'qxdo_image_bed',
+      branch: 'main',
+      host: 'cdn.jsdelivr.net',
       prefixKey: ''
     }
   }
