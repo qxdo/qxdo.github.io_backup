@@ -105,7 +105,7 @@ module.exports = {
       prefixKey: '',
     },
     github: {
-      token: process.env.GITHUB_TOKEN,
+      token: process.env.ELOG_GITHUB_TOKEN,
       user: process.env.ELOG_GITHUB_USER,
       repo: process.env.ELOG_GITHUB_REPO,
       branch: process.env.ELOG_GITHUB_BRANCH,
