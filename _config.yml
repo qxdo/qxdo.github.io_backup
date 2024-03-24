@@ -118,3 +118,4 @@ theme: landscape
 deploy:
   type: 'git'
   repo: https://github.com/qxdo/qxdo.github.io.git
+  branch: gh-pages
